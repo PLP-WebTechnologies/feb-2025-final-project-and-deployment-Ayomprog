@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Blog - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">My Blog</h1>
+      <button id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+      <nav id="nav-menu" class="nav-menu">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="post.html">Latest Post</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="posts">
+      <article>
+        <h2><a href="post.html">Welcome to My Blog</a></h2>
+        <p class="post-meta">Published on 2024-06-07 by Admin</p>
+        <p>Discover engaging articles about web development, programming, and tech trends here.</p>
+        <a href="post.html" class="read-more">Read More</a>
+      </article>
+
+      <article>
+        <h2><a href="post.html">Understanding Responsive Design</a></h2>
+        <p class="post-meta">Published on 2024-06-01 by Admin</p>
+        <p>Responsive design makes sure your website looks great on all devices. Learn the basics here.</p>
+        <a href="post.html" class="read-more">Read More</a>
+      </article>
+    </section>
+
+    <aside class="sidebar">
+      <section id="about">
+        <h3>About Me</h3>
+        <p>Hi, I'm a passionate web developer sharing tips and tutorials.</p>
+      </section>
+
+      <section id="contact">
+        <h3>Contact</h3>
+        <p>Email: <a href="ayomideodefunsho@myblog.com">ayomideodefunsho.com</a></p>
+      </section>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    navToggle.addEventListener('click', () => {
+      const expanded = navToggle.getAttribute('aria-expanded') === 'true' || false;
+      navToggle.setAttribute('aria-expanded', !expanded);
+      navMenu.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Blog - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">My Blog</h1>
+      <button id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+      <nav id="nav-menu" class="nav-menu">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="post.html">Latest Post</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">08038031754</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="posts">
+      <article>
+        <h2><a href="post.html">Welcome to My Blog</a></h2>
+        <p class="post-meta">Published on 2024-03-02 by ODEFUNSHO AYOMIDE</p>
+        <p>Discover engaging articles about web development, programming, and tech trends here.</p>
+        <a href="post.html" class="read-more">Read More</a>
+      </article>
+
+      <article>
+        <h2><a href="post.html">Understanding Responsive Design</a></h2>
+        <p class="post-meta">Published on 2025-04-01 by ODEFUNSH OAYOMIDE</p>
+        <p>Responsive design makes sure your website looks great on all devices. Learn the basics here.</p>
+        <a href="post.html" class="read-more">Read More</a>
+      </article>
+    </section>
+
+    <aside class="sidebar">
+      <section id="about">
+        <h3>About Me</h3>
+        <p>Hi, I'm a passionate web developer sharing tips and tutorials.</p>
+      </section>
+
+      <section id="contact">
+        <h3>08038031754</h3>
+        <p>Email: <a href="ayomideodefunsho@gmail.com>ayomideodefunsho@myblog.com</a></p>
+      </section>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    navToggle.addEventListener('click', () => {
+      const expanded = navToggle.getAttribute('aria-expanded') === 'true' || false;
+      navToggle.setAttribute('aria-expanded', !expanded);
+      navMenu.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
+
